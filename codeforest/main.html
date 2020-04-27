@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Forest</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="container-left clearfix">
+                <div class="logo">
+                    <img src="https://user-images.githubusercontent.com/59616862/80387335-7fb8e980-88e3-11ea-99ac-2c643a77a40c.png" alt="CodeForest">
+                </div>
+                <div class="menu clearfix">
+                    <div class="menu-item">Code Tree</div>
+                    <div class="menu-item">Coding Test</div>
+                    <div class="menu-item">Coding Training</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="codeTest">
+        <form>
+            <table class="tbl-ex">
+               <tr>
+                  <th colspan="2" id="head">Online Java Compiler</th>
+               </tr>
+               <tr>
+                  <td class="label">코드 입력</td>
+                  <td>결과</td>
+               </tr>
+               <tr>
+                  <td>
+                      <textarea onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}"
+                          type="text" name="code" id = "code"></textarea>
+                  </td>
+                  <td>
+                      <textarea name="" id="result" readonly></textarea>
+                  </td>
+               </tr>
+               <tr>
+                   <td>
+                        <span style="float: right;">
+                            <input type="submit" value="Compile">
+                        </span>
+                   </td>
+               </tr>
+            </table>
+         </form>
+    </div>
+</body>
+</html>
