@@ -95,15 +95,10 @@ td {
 
 select {
     width: 155px;
-<<<<<<< HEAD
     height: 35px;
     padding: .3em .3em;
     font-family: inherit;
     font-size: 8px;
-=======
-    padding: .5em .5em;
-    font-family: inherit;
->>>>>>> 723a79dba54189a2b0411700cd363e04c5d567a3
     background: no-repeat 95% 50%;
     background-color: #fff;
     border: 1px solid #999;
@@ -119,11 +114,7 @@ select {
 }
 
 #code {
-<<<<<<< HEAD
     width: 600px; 
-=======
-    width: 480px; 
->>>>>>> 723a79dba54189a2b0411700cd363e04c5d567a3
     height: 300px;
     background-color: #fff;
     color: #000;
@@ -131,16 +122,10 @@ select {
     line-height: 2em;
     font-stretch: ultra-expanded;
     padding: 3px 10px;
-<<<<<<< HEAD
     resize: none;
 }
 #result {
     width: 600px;
-=======
-}
-#result {
-    width: 480px;
->>>>>>> 723a79dba54189a2b0411700cd363e04c5d567a3
     height: 150px;
     background-color: #fff;
     color: #000;
@@ -148,11 +133,8 @@ select {
     line-height: 2em;
     font-stretch: ultra-expanded;
     padding: 3px 10px;
-<<<<<<< HEAD
     margin-bottom: 10px;
     resize: none;
-=======
->>>>>>> 723a79dba54189a2b0411700cd363e04c5d567a3
 }
 
 .bottom {
@@ -190,32 +172,3 @@ select {
     display: block;
     clear: both;
 }
-<<<<<<< HEAD
-=======
-
-.btn-save {
-    margin-left: 50px;
-    color:#fff; 
-    border-color: #2861ff;
-    border-radius: 5px;
-    background-color: #2861ff;
-}
-.btn-save:hover{
-    color:#fff;
-    background-color: #2352d3;
-}
-
-.btn-compile {
-    margin-left: 5px;
-    color:#fff; 
-    border-color: #3f941d;
-    border-radius: 5px;
-    background-color: #3f941d;
-    width: 75px;
-    height: 25px;
-}
-.btn-compile:hover{
-    color:#fff;
-    background-color: #357c18;
-}
->>>>>>> 723a79dba54189a2b0411700cd363e04c5d567a3
