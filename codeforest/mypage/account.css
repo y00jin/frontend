@@ -11,13 +11,16 @@ body {
 .head {
     width: 1320px;
     margin: auto;
-    padding: 5px 0;
+    padding: 0 0 5px 0;
 }
 
 .container {
     width: 980px;
     margin: auto;
-    padding: 20px 0;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 1%;
 }
 
 .logo {
@@ -27,11 +30,13 @@ body {
 
 .menu {
     float: right;
+    margin-top: 5px;
 }
 
 .menu-item {
     float: left;
     margin-right: 10px;
+    font-size: small;
 }
 
 .sidemenu {
@@ -42,7 +47,7 @@ body {
 
 ul {
     list-style: none;
-    margin-left: 30px;
+    margin-left: 20px;
     margin-right: 30px;
     padding-left: 0px;
     height: 600px;
@@ -50,18 +55,19 @@ ul {
 
 .menulist {
     margin: 5px;
-    padding: 5px 0px;
+    padding: 10px 0px;
 }
 
-.correct,
-.wrong {
+.nickname,
+.password,
+.disclosure,
+.delete {
+    margin-bottom: 30px;
+}
+
+.line {
     border-bottom: 1px solid lightgray;
-    margin-bottom: 5px;
-}
-
-.correct-answer,
-.wrong-answer {
-    margin: 10px 0px;
+    margin-bottom: 10px;
 }
 
 .clearfix::after {

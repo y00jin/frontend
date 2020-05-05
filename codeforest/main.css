@@ -2,13 +2,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .header {
     background-color: lightgray;
 }
 
-.container {
+.head {
     width: 1050px;
-    margin:auto;
+    margin: auto;
     padding: 5px 0;
 }
 
@@ -17,7 +18,7 @@ body {
     color: tomato;
 }
 
-.user ul li{
+.user ul li {
     list-style: none;
     float: right;
     text-align: right;
@@ -35,8 +36,8 @@ body {
 
 .logo img {
     display: block;
-    width:230px; 
-    height:70px;
+    width: 230px;
+    height: 70px;
 }
 
 .menu {
@@ -45,7 +46,7 @@ body {
 }
 
 .header-link {
-	color: #24292e;
+    color: #24292e;
 }
 
 a {
@@ -53,7 +54,7 @@ a {
 }
 
 .menu a:hover {
-	color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     background-color: #fff;
 }
@@ -114,7 +115,7 @@ select {
 }
 
 #code {
-    width: 600px; 
+    width: 600px;
     height: 300px;
     background-color: #fff;
     color: #000;
@@ -124,6 +125,7 @@ select {
     padding: 3px 10px;
     resize: none;
 }
+
 #result {
     width: 600px;
     height: 150px;
@@ -144,26 +146,28 @@ select {
 
 .btn-save {
     margin-left: 290px;
-    color:#fff; 
+    color: #fff;
     border-color: #2861ff;
     border-radius: 5px;
     background-color: #2861ff;
 }
-.btn-save:hover{
-    color:#fff;
+
+.btn-save:hover {
+    color: #fff;
     background-color: #2352d3;
 }
 
 .btn-compile {
     margin-left: 5px;
-    color:#fff; 
+    color: #fff;
     border-color: #3f941d;
     border-radius: 5px;
     background-color: #3f941d;
     height: 30px;
 }
-.btn-compile:hover{
-    color:#fff;
+
+.btn-compile:hover {
+    color: #fff;
     background-color: #357c18;
 }
 
