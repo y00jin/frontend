@@ -5,6 +5,32 @@
     <meta charset="UTF-8">
     <title>Code Forest</title>
     <link rel="stylesheet" href="./account.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script type="text/javascript" src="./jquery/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $("#change-nickname").dialog({
+                autoOpen: false,
+                resizable: false,
+                height: "auto",
+                width: 400,
+                modal: true,
+                buttons: {
+                    "완료": function() {
+                        $(this).dialog("close");
+                    },
+                    Cancel: function() {
+                        $(this).dialog("close");
+                    }
+                }
+            });
+            $("#nickname-btn").on("click", function() {
+                $("#change-nickname").dialog("open");
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -24,9 +50,9 @@
     <div class="sidemenu">
         <nav>
             <ul>
-                <li class="menulist">마이페이지</li>
-                <li class="menulist">계정 관리</li>
-                <li class="menulist">문제 관리</li>
+                <li class="menulist"><a href="">마이페이지</a></li>
+                <li class="menulist"><a href="">계정 관리</a></li>
+                <li class="menulist"><a href="">문제 관리</a></li>
             </ul>
         </nav>
     </div>
@@ -35,7 +61,7 @@
             <div class="line">
                 <h4>닉네임 변경</h4>
             </div>
-            <button>변경</button>
+            <button id="nickname-btn">변경</button>
         </div>
         <div class="password">
             <div class="line">
@@ -64,6 +90,32 @@
             </p>
             <button style="color: red;">회원 탈퇴</button>
         </div>
+    </div>
+
+    <div id="change-nickname" title="닉네임 변경">
+        변경하실 닉네임을 입력해주세요.
+        <form>
+            <fieldset>
+                <label for="name">닉네임 입력 : </label>
+                <input type="text" name="name" id="name" value="에옹이" class="text ui-widget-content ui-corner-all">
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="change-nickname" title="닉네임 변경">
+        변경하실 닉네임을 입력해주세요.
+        <form>
+            <fieldset>
+                <label for="name">닉네임 입력 : </label>
+                <input type="text" name="name" id="name" value="에옹이" class="text ui-widget-content ui-corner-all">
+                <label for="name">닉네임 입력 : </label>
+                <input type="text" name="name" id="name" value="에옹이" class="text ui-widget-content ui-corner-all">
+                <label for="name">닉네임 입력 : </label>
+                <input type="text" name="name" id="name" value="에옹이" class="text ui-widget-content ui-corner-all">
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+        </form>
     </div>
 
 </body>

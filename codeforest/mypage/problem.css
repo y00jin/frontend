@@ -53,13 +53,23 @@ ul {
     height: 600px;
 }
 
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+a:visited {
+    color: #222;
+}
+
 .menulist {
     margin: 5px;
     padding: 10px 0px;
 }
 
-.quizlist {
-    margin-bottom: 30px;
+.list,
+.delete {
+    width: 25px;
 }
 
 .line {
@@ -67,8 +77,21 @@ ul {
     margin-bottom: 10px;
 }
 
-.title {
-    width: 70%;
+.quiz-table {
+    text-align: center;
+    margin-left: 30px;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+td {
+    padding: 5px 0;
+}
+
+#title {
+    text-align: left;
 }
 
 .clearfix::after {

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.container-left {}
+
+.logo {
+    float: left;
+    margin-right: 10px;
+}
+
+.logo img {
+    display: block;
+}
+
+.menu {
+    float: left;
+}
+
+.menu-item {
+    float: left;
+    margin-right: 10px;
+    padding: 8px 10px;
+}
+
+.user {
+    float: right;
+    margin-top: 5px;
+}
+
+.user-item {
+    float: left;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
