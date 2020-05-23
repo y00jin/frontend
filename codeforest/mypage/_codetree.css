@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    background-color: lightgray;
+}
+
+.title {
+    float: left;
+}
+
+.time {
+    float: right;
+}
+
+.start,
+.remain {
+    float: left;
+    margin-right: 10px;
+    padding: 8px 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.workbook {
+    background-color: tomato;
+    position: fixed;
+    left: 0px;
+    margin: auto;
+}
+
+.nemo {
+    background-color: yellow;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    float: right;
+}
+
+.button {
+    float: right;
+    margin-right: 300px;
+}
+
+.navi { float: left; background-color: seagreen;}
+
+.code { float: left; width: 80%;}
+
+.yo { display: inline-flex; width: 100%; background-color: violet; }
+
+.result {
+    float: left;
+    width: 80%;
+    background-color: violet;
+}
+
+.content {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    width: 100%;
+    height: 600px;
+}
+
+.result-text {
+    clear: left;
+}
+
+#result-text {
+    width: 100%;
+    height: 200px;
+}
+
+.stop {
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* { margin: 0; padding: 0; }
+html,
+
+:global(#root),
+:global(.App) { height:100%; }
+
+.Clock{
+    float:right;
+    line-height: 0px;
+}
+
+.CodeTree{
+    margin: 0 ;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color:#dfdf99;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+}
+
+
+.ProblemList{
+    border:2px soild #444;
+    background-color: rgb(56, 197, 51);
+    width:20%;
+    height: 100vh;
+    float:left;
+    display: table;
+}
+
+.Problem {
+    background-color: grey;
+    padding: 0;
+    color: #fefefe;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+    display: table-caption;
+}
+
+.tab:hover,
+.active{
+    background-color: #7e0606;
+}
+
+.CloseContent {
+    background-color: rgb(218, 34, 21);
+    transition: all 0.05s ease-in-out;
+    height: 0;
+    overflow: hidden;
+}
+
+.OpenContent {
+    background-color: rgb(218, 34, 21);
+    transition: all 0.05s ease-in-out;
+    /* height: 70%; */
+}
+
+.title {
+
+}
+
+.contents {
+    
+}
+
+.examInput {
+    float: left;
+
+}
+
+.examOutput {
+    float: right;
+}
