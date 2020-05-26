@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 
-body { margin: 0; padding: 0; background-color: rgb(5, 5, 5, 40%); }
+body { margin: 0; padding: 0; }
 .header { background-color: white; border-bottom: 1px solid #E3E3E3; }
 
 .container { width: 980px; margin: auto; padding: 20px 0; }

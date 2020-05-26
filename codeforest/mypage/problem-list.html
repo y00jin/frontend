@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code Forest</title>
+    <link rel="stylesheet" href="./problem.css">
+</script>
+
+</head>
+
+<body>
+    <div class="content">
+        <div class="menu-bar">
+            <div class="algo">
+                <table>
+                    <tr id="title">
+                        <th>알고리즘</th>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="one" name="level" value="one">
+                            <label for="one"><span></span>level 1</label></td>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="two" name="level" value="two">
+                            <label for="two"><span></span>level 2</label></td>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="three" name="level" value="three">
+                            <label for="three"><span></span>level 3</label></td>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="four" name="level" value="four">
+                            <label for="four"><span></span>level 4</label></td>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="five" name="level" value="five">
+                            <label for="five"><span></span>level 5</label></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="category">
+                <table>
+                    <tr id="title">
+                        <th>분류</th>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="enterprise" name="organization" value="enterprise">
+                            <label for="enterprise"><span></span>기업</label></td>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="individual" name="organization" value="individual">
+                            <label for="individual"><span></span>개인</label></td>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="academy" name="organization" value="academy">
+                            <label for="academy"><span></span>학원</label></td>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="school" name="organization" value="school">
+                            <label for="school"><span></span>학교</label></td>
+                    </tr>
+                    <tr id="sub">
+                        <td><input type="checkbox" id="other" name="organization" value="other">
+                            <label for="other"><span></span>기타</label></td>
+                    </tr>
+                </table>
+            </div>
+        </div> <!-- div menu-bar -->
+
+        <div class="list">
+            <div class="search">
+                <input type="text" id="kwd" name="kwd" placeholder="Search..">
+                <input type="button" id="search" value="검색">
+                <button class="make-problem" onclick="${pageContext.servletContext.contextPath }/training/write">문제작성</button>
+            </div>
+            <div class="problems">
+
+                <div class="problem-box">
+                    <div class="problem-no">1</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">10</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">102</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">10233</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+                <div class="problem-box">
+                    <div class="problem-no">1023</div>
+                    <div class="problem-recommend"><img src="img/like.png" class="like" />11</div>
+                    <div class="problem-title">미로탈출</div>
+                    <div class="problem-user">에옹이</div>
+                    <div class="problem-kind">개인</div>
+                </div>
+            </div> <!-- div problems -->
+            <div class ="pager">
+                <span> <a href="${pageContext.request.contextPath }/training?p=${map.startPageNum -1}&kwd=${map.keyword}">◀</a> </span>
+                        <a href="${pageContext.request.contextPath }/training?p=${page}&kwd=${map.keyword}">1</a>
+                        <b>2</b>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                <span> <a href="${pageContext.request.contextPath }/training?p=${map.endPageNum +1}&kwd=${map.keyword}">▶</a> </span>
+            </div>          
+            
+        </div> <!-- div list -->
+        
+    </div>
+
+</body>
+
+</html>
