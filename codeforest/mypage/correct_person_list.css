@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+body { margin: 0; padding: 0;}
+.header { background-color: white; border-bottom: 1px solid #E3E3E3; }
+
+.container { width: 980px; margin: auto; padding: 20px 0; }
+
+.logo { float: left; margin-right: 40px; margin-top: 4px;}
+
+.logo a { text-decoration: none; color:#167426; font-family: 'Teko', sans-serif; font-size: 1.7em; margin-left: 20px; margin-top: 4px; }
+.logo a:visited { color: #167426; }
+.logo a:hover { text-decoration:none; color: #167426; }
+
+.menu { float: left;}
+
+.menu-user { float: right; font-size: 0.8em; margin-top:2px }
+
+.menu-item { float: left; margin: 3px 10px 0 0; padding: 8px 10px }
+
+.menu a { text-decoration: none; color: #222; }
+.menu a:visited { color: #222; }
+.menu a:hover { text-decoration: none; color:#167426}
+
+.menu-user a { text-decoration: none; color: #222; }
+.menu-user a:visited { color: #222; }
+.menu-user a:hover { text-decoration: none; color:#167426}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10%;
+}
+
+.statistics {
+    float: left;
+    width: 13%;
+    margin-left: 2%;
+    height: 100%;
+}
+
+table.type09 {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 0.9em;
+}
+table.type09 thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #167426;
+    border-bottom: 3px solid #167426;
+}
+table.type09 tbody th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    background: #f3f6f7;
+    
+}
+table.type09 td {
+    width: 100px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    text-align: center;
+}
+
+table.type09 .even {
+    background: #efefef;
+}
+
+.correct-person-list {
+    float: left;
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.code-mirror {
+    float: left;
+    width: 45%;
+    height: 100%;
+    margin-left: 3%;
+    background-color: limegreen;
+}
+
+textarea {
+    width: 99%;
+    height: 60%;
+}
